@@ -3,7 +3,7 @@ EasyDNS With Python
 
 I recently needed a simple dynamic DNS updater for the EasyDNS dns service. There was a linux client available, but it was written in C and required quite a bit of work to get working. So, I wrote a simple python library to do the job.
 
-`[Download] <foo>`_
+`[Download] <{filename}/static/easyDnsUpdate.py>`_
 
 **Features**
 

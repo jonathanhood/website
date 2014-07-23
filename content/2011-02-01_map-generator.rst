@@ -14,6 +14,6 @@ If you want to try it out for yourself, download_ my implementation. It requires
 
 .. _Minecraft: http://www.minecraft.net/
 .. _Diamond-Square algorithm: http://en.wikipedia.org/wiki/Diamond-square_algorithm
-.. _download: ??
+.. _download: {filename}/static/mapgenerator.py
 .. _pypng: http://code.google.com/p/pypng/
 
