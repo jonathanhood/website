@@ -31,6 +31,13 @@ SOCIAL = (
     ("LinkedIn", "http://www.linkedin.com/in/jonathanhood2"),
 )
 
+# Static Folders
+STATIC_PATHS = [
+    'images',
+    'static'
+]
+
+# Pagination 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
