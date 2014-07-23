@@ -23,13 +23,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (
-    ("LinkedIn", "http://www.linkedin.com/in/jonathanhood2"),
-    ("Bitbucket", "http://bitbucket.org/jhood06")
-)
+LINKS = ()
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (
+    ("Github", "https://github.com/jonathanhood"),
+    ("LinkedIn", "http://www.linkedin.com/in/jonathanhood2"),
+)
 
 DEFAULT_PAGINATION = False
 
