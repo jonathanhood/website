@@ -13,6 +13,8 @@ DEFAULT_LANG = u'en'
 THEME = 'pelican-simplegrey'
 SINGLE_AUTHOR = True
 DISPLAY_CATEGORIES_ON_MENU = False
+NUM_FULL_ARTICLES = 4
+NUM_LINKED_ARTICLES = 7
 
 # Setup filenames to extract dates and slugs
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
