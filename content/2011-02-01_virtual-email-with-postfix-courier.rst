@@ -1,6 +1,8 @@
 Virtual Email Domains with Postfix and Courier
 ##############################################
 
+:category: Notes
+
 I've recently had to setup postfix and courier on a server that hosts multiple domains. Setting up the two for this task isn't hard, but proper documentation and tutorials can be hard to come by. We won't be using any extra services like MySQL to store the users and mailbox mappings. It works great for a small number of domains. I'm going to assume that Postfix and Courier are already set up and work for email addresses at your server's hostname. This how-to was tested on Debian Lenny. For our example, we will be creating the mail@foobar.org email address.
 
 .. sourcecode:: shell

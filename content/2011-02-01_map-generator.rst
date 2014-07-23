@@ -1,6 +1,8 @@
 Map Generator
 #############
 
+:category: Projects
+
 After playing Minecraft_ for awhile I got interested in procedural terrain generation. I wondered how a world could just be 'generated' while playing a game. So, like all good problems, I wrote a small program to solve it. In my research I can across the `Diamond-Square algorithm`_ and made an implementation of it. The output looks like this:
 
 .. image:: {filename}/images/mapgen.jpg

@@ -1,6 +1,8 @@
 How-To Send Email with Python
 #############################
 
+:category: Notes
+
 Sending email from a script is a very useful tool. On a linux machine, you can setup a mta to get mail from any cron jobs, but there are alot of situations where that functionality may not be available. This happened to me the other day, and I found the fantastic smtplib that exists in the python standard library. So, you need to send a message? Its super easy, first import smtplib and connect to a server
 
 .. sourcecode:: python
