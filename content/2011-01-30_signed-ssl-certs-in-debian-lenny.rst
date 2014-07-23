@@ -1,6 +1,8 @@
 Signed SSL Cert on Debian Lenny
 ===============================
 
+:category: Notes
+
 This is a follow up to the previous post, where I showed how-to generate a CSR. Now, I'm going to assume that you have a signed certificate and a CA bundle. Configuring apache to use these items is a relatively simple affair. First, copy them to the proper place on your server::
 
     > mv public.crt /etc/ssl/certs/public.crt

@@ -39,6 +39,10 @@ STATIC_PATHS = [
     'static'
 ]
 
+# Files to manually place
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'},
+}
 # Pagination 
 DEFAULT_PAGINATION = False
 

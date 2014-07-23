@@ -1,6 +1,8 @@
 How-to Generate a CSR
 =====================
 
+:category: Notes
+
 I recently found myself in need of a csr for work project, and found the documentation a bit lacking.  Here is how I accomplished that task.  I'm going to make the following assumptions:
 
 

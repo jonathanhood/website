@@ -1,6 +1,8 @@
 Fixing arrow keys in vim
 ========================
 
+:category: Notes
+
 Vim is an amazing text editor that many people swear by. On occasion though, it does do some frustrating stuff. For example, ever have vim do weird things whenever you press an error key? Happens to me pretty often, and I always have to scour the internet for a solution. It typically happens to me in two cases:
 
 

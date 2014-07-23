@@ -1,6 +1,8 @@
 RayTrace
 ========
 
+:category: Projects
+
 A while ago, I was asked to create a ray tracer as a school project.  Since then, I have extended my implementation quite a bit.  It is still exceptionally limited, but it was a great learning tool.  It also makes a cool looking picture!
 
 .. image:: {filename}/images/raytracer.png

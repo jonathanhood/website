@@ -1,6 +1,8 @@
 Samba on Debian Lenny
 =====================
 
+:category: Notes
+
 I've recently had to install the most simple of SAMBA setups.  The following setup is meant for the simplest of environments, where no authentication is required.  It is completely open in that anyone can read/write to the share.  Be warned: only use this in a situation where you are sure it is safe.  For me, it is great for a development server share or for sharing files on a home network. First, either login as root, or switch user to the root account.  To switch user::
 
     > su -

@@ -1,6 +1,8 @@
 PyPong
 ======
 
+:category: Projects
+
 So, A few years ago I decided to learn how to write a video game.  My first game, of course, was pong.  It is implemented in python using the fantastic pygame library.
 
 .. image:: {filename}/images/pong.png
