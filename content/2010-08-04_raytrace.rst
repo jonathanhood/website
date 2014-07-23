@@ -1,0 +1,37 @@
+RayTrace
+========
+
+A while ago, I was asked to create a ray tracer as a school project.  Since then, I have extended my implementation quite a bit.  It is still exceptionally limited, but it was a great learning tool.  It also makes a cool looking picture!
+
+.. image:: {filename}/images/raytracer.png
+
+
+
+Features
+
+
+- Up to 16x supersampling.
+- Reflection.
+- Multiple light sources.
+- Can trace the following primitives: Plane, Box, Sphere, and Cylinder.
+
+
+Requirements
+
+
+- A Linux-based operating system.
+- The OpenGL Development Libraries.
+- The freeglut library.
+- The g++ compiler.
+- The source code. `[download] <{filename}/static/raytrace.tar.gz>`_
+
+
+Compilation Instructions
+
+
+- Install the libraries and software mentioned above.  The commands to install those libraries will vary from distro to distro.
+- Download the source code and extract it.
+- Open a terminal, cd to the directory you extracted to.
+- Compile with 'g++ -o raytrace -lglut -lGL -lGLU main.cpp'
+- Run with './raytrace'
+
