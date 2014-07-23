@@ -1,0 +1,37 @@
+PyPong
+======
+
+So, A few years ago I decided to learn how to write a video game.  My first game, of course, was pong.  It is implemented in python using the fantastic pygame library.
+
+.. image:: {filename}/images/pong.png
+
+Feautres
+
+
+- AI controlled paddle to play with.
+- Ball keeps getting faster, this version of pong becomes difficult rapidly.
+- Win with 10.  Score 10 points and you win the game.  Just don't let the 
+  computer score 10 first.
+
+
+Requirements
+
+
+- Python 2.6.  It may work with later versions of python, but this is untested.
+- The pygame library.
+
+
+To Play
+
+
+- First, make sure you have `Python 2.6`_ installed.   
+- Now, install the pygame_ library.  Choose the version for your platform 
+  and for python 2.6. 
+- Download the game.  Right click and select save as. 
+  `[download] <{filename}/static/pong.pyw>`_
+- Double click pong.pyw.  It should start right up.
+
+
+.. _Python 2.6: http://www.python.org/download/releases/2.6.6/
+.. _pygame: http://www.pygame.org/download.shtml
+
