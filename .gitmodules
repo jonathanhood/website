@@ -1,0 +1,3 @@
+[submodule "pelican-simplegrey"]
+	path = pelican-simplegrey
+	url = https://github.com/jonathanhood/pelican-simplegrey.git
