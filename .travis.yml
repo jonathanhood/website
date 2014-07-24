@@ -6,7 +6,7 @@ install:
 script:
     - make html
     - git clone https://github.com/jonathanhood/jonathanhood.github.io.git
-    - cp output/* jonathanhood.github.io/.
+    - cp -R output/* jonathanhood.github.io/.
     - cd jonathanhood.github.io
     - git commit -m "Updating with latest changes"
     - git push
