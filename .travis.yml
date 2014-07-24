@@ -6,4 +6,4 @@ install:
 script: ./build_and_push.sh
 env:
   global:
-    secure: BU0H2ughACQwoPzcC/y2t9aRs90aSIBVHNLuO/bH8DVtA4nehuX3u4nRO9ow9wXmZBSdq2FGDQmRqkORNdT0TWdOto6hMoW3L5lIDTDxoYAtOdDpndDztHPmjS5+q86n/gQgm2TPlauSgQEqRvi8PnjcIlhaIenoRr/Madi1FK0=
+    secure: mDUNp+sNFIVYINe2aBiy35foUAXCOeEkzvr1JumKRzl5dM1iwRnj48paXW/0qvJL7SkNF90l93uTkkP8Voj+MT+oVEoU75Hp3GkeZRRvcmMMHGfxYht5kl0Fs73PsvkxClG05JUfsTFD9HpLDP8ckyuwUhvfnFvBL0SgDhngmZo=
