@@ -3,10 +3,9 @@ My Website
 
 My personal website which I'm in the process of moving from Joomla to Pelican.
 
-Building the Website
-====================
+Normally - the website is built and published automatically via [travis-ci](https://travis-ci.org/jonathanhood/website).
 
-To build the website - just use the provided requirements.txt and virtualenv:
+To build the website manually - just use the provided requirements.txt and virtualenv:
  
     > pip install virtualenv
     > git clone https://github.com/jonathanhood/website.git
