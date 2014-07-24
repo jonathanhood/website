@@ -11,6 +11,8 @@ To build the website - just use the provided requirements.txt and virtualenv:
     > pip install virtualenv
     > git clone https://github.com/jonathanhood/website.git
     > cd website
+    > git submodule init
+    > git submodule update
     > virtualenv venv
     > source venv/bin/activate
     > pip install -r requirements.txt
