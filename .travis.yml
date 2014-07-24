@@ -8,4 +8,5 @@ script:
     - git clone https://github.com/jonathanhood/jonathanhood.github.io.git
     - cp output/* jonathanhood.github.io/.
     - cd jonathanhood.github.io
-    - git push -m "Updating with latest changes"
+    - git commit -m "Updating with latest changes"
+    - git push
