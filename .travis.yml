@@ -1,19 +1,19 @@
 language: python
 python:
 - '2.7'
-env:
-  global:
-    secure: BU0H2ughACQwoPzcC/y2t9aRs90aSIBVHNLuO/bH8DVtA4nehuX3u4nRO9ow9wXmZBSdq2FGDQmRqkORNdT0TWdOto6hMoW3L5lIDTDxoYAtOdDpndDztHPmjS5+q86n/gQgm2TPlauSgQEqRvi8PnjcIlhaIenoRr/Madi1FK0=
 install:
 - pip install -r requirements.txt
 script:
 - make html
-- git config user.name $GIT_NAME
-- git config user.email $GIT_EMAIL
 - git clone https://github.com/jonathanhood/jonathanhood.github.io.git
 - cp -R output/* jonathanhood.github.io/.
 - cd jonathanhood.github.io
+- git config user.name $GIT_NAME
+- git config user.email $GIT_EMAIL
 - git config credential.helper "store --file=.git/credentials"
-- echo 'https://'$GH_TOKEN':$github.com' >> .git/credentials
+- echo 'https://'$GH_TOKEN':@github.com' >> .git/credentials
 - git commit -m "Updating with latest changes"
 - git push
+env:
+  global:
+    secure: BU0H2ughACQwoPzcC/y2t9aRs90aSIBVHNLuO/bH8DVtA4nehuX3u4nRO9ow9wXmZBSdq2FGDQmRqkORNdT0TWdOto6hMoW3L5lIDTDxoYAtOdDpndDztHPmjS5+q86n/gQgm2TPlauSgQEqRvi8PnjcIlhaIenoRr/Madi1FK0=
