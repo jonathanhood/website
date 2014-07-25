@@ -30,6 +30,7 @@ LINKS = ()
 # Social widget
 SOCIAL = (
     ("Github", "https://github.com/jonathanhood"),
+    ("Twitter", "https://twitter.com/jonathan_hood"),
     ("LinkedIn", "http://www.linkedin.com/in/jonathanhood2"),
 )
 
