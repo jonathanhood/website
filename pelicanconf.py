@@ -31,6 +31,7 @@ LINKS = ()
 SOCIAL = (
     ("Github", "https://github.com/jonathanhood"),
     ("Twitter", "https://twitter.com/jonathan_hood"),
+    ("Facebook", "https://www.facebook.com/jonathanhood.hsv"),
     ("LinkedIn", "http://www.linkedin.com/in/jonathanhood2"),
 )
 
